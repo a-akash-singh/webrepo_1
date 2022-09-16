@@ -1,0 +1,159 @@
+/*font*/
+
+@font-face {
+    font-family:Birthstone-Regular;
+    src: url(../Fonts/Birthstone-Regular.ttf);
+}
+h1{
+    font-family:Birthstone-Regular;
+    font-size: 55px;
+color: rgb(255 72 2);
+}
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}   
+
+/*body*/
+
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 4%;
+}
+
+#topbar{
+    background-color: rgb(42, 41, 54);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+#social_icon{
+    float: right;
+}
+#tollfree{
+    float: left;
+    margin: 0;
+    margin-top: 5px;
+    
+}
+#tollfree a{
+   
+    color: aliceblue;
+    
+    text-decoration: none;
+}
+
+.fab{
+    background-color: aliceblue;
+    padding: 7px;
+    border-radius: 50%;
+}
+.fa-facebook-f{
+    padding: 7px 10px;
+    color: blue;
+}
+.fa-whatsapp{
+    padding: 7px 8px;
+    color: rgb(11, 158, 35);
+}
+.fa-twitter{
+    color: rgb(43, 189, 247);
+}
+.fa-instagram{
+    padding: 7px 8px;
+    color: rgba(245, 21, 144, 0.788);
+}
+
+
+/*Logobar*/
+#logobar img{
+    width: 360px;
+    height: 90px;
+    margin: 25px 0;
+   
+}
+
+
+/* nav bar*/
+#navbar{
+    background-color:rgb(13, 21, 94);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 18px 0;
+    padding-right: 60px;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#banner{
+    background-image: url(../Images&logo/backgroundtop.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#banner p{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*foooter*/
+#imp_link{
+    background-color:rgb(8, 14, 66) ;
+    color:aliceblue;
+    overflow: auto;
+}
+.threeblc{
+    width: 33.33%;
+    float: left;
+    padding: 25px 0px;
+    box-sizing: border-box;
+}
+.threeblc h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+       
+}
+.threeblc a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#footer_menu{
+    list-style-type: none;
+    padding: 0;
+}
+#footer_menu li{
+    padding-bottom: 8px;
+}
+#footer_menu li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#menucont{
+    padding-left: 100px;
+}
+
+/*copyright*/
+#copyright{
+    background-color:rgb(42, 41, 54) ;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
+
